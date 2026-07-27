@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Discover Airbnb homes, experiences and services in inspiring destinations.">
+<title>Airbnb — Find your next stay</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header" id="header">
+<a class="brand" href="#top" aria-label="Airbnb home"><i class="bi bi-house-heart-fill" aria-hidden="true"></i><span>airbnb</span></a>
+<nav class="desktop-nav" aria-label="Primary navigation"><a href="#stays">Stays</a><a href="#experiences">Experiences</a><a href="#inspiration">Inspiration</a><a href="#questions">Help</a></nav>
+<a class="button button-small header-cta" href="https://www.airbnb.co.uk/" target="_blank" rel="noopener">Visit Airbnb</a>
+<button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="mobile-menu"><i class="bi bi-list" aria-hidden="true"></i></button>
+<nav class="mobile-nav" id="mobile-menu" aria-label="Mobile navigation"><a href="#stays">Stays</a><a href="#experiences">Experiences</a><a href="#inspiration">Inspiration</a><a href="#questions">Help</a><a href="https://www.airbnb.co.uk/" target="_blank" rel="noopener">Visit Airbnb</a></nav>
+</header>
+<main id="main">
+<section class="hero" id="top">
+<div class="hero-copy">
+<p class="eyebrow"><i class="bi bi-compass" aria-hidden="true"></i> Your next story starts here</p>
+<h1 class="hero-title" aria-label="Stay somewhere worth remembering"><span>Stay</span> <span>somewhere</span> <span>worth</span> <span>remembering</span></h1>
+<p class="hero-intro">Discover character-filled homes, memorable experiences and trusted local services in places you already love—and places you have yet to meet.</p>
+<form class="search-panel" id="search-form">
+<label><span>Where</span><input id="destination" type="text" value="Paris" aria-label="Destination"></label>
+<label><span>When</span><input type="text" value="Any weekend" aria-label="Dates" readonly></label>
+<label><span>Who</span><input type="text" value="2 guests" aria-label="Guests" readonly></label>
+<button class="button hero-cta" type="submit"><i class="bi bi-search" aria-hidden="true"></i><span>Search stays</span></button>
+</form>
+<div class="hero-note"><span class="avatar-stack" aria-hidden="true"><b>P</b><b>R</b><b>L</b></span><span>Guest favourites across Paris, Rome and London</span></div>
+</div>
+<div class="hero-visual" aria-label="A collage of Airbnb stays">
+<div class="shape shape-one" aria-hidden="true"></div><div class="shape shape-two" aria-hidden="true"></div>
+<figure class="hero-photo hero-photo-main"><img src="https://a0.muscache.com/im/pictures/8e023fdc-590a-44bd-a25f-e8b2dbfed1eb.jpg?im_w=720" alt="Room in the 4th Arrondissement of Paris" width="720" height="540"><figcaption><strong>Paris</strong><span>Guest favourite · 4.94</span></figcaption></figure>
+<figure class="hero-photo hero-photo-small"><img src="https://a0.muscache.com/im/pictures/938270dc-dee9-4ec3-ab85-00d548cbd800.jpg?im_w=720" alt="Apartment in Trionfale, Rome" width="720" height="540"><figcaption><strong>Rome</strong><span>From £152 total</span></figcaption></figure>
+</div>
+</section>
+<section class="stays section reveal reveal-up" id="stays">
+<div class="section-heading reveal-child"><div><p class="eyebrow">Homes with a point of view</p><h2>Popular places to land</h2></div><a class="text-link" href="https://www.airbnb.co.uk/" target="_blank" rel="noopener">See all stays <i class="bi bi-arrow-up-right" aria-hidden="true"></i></a></div>
+<div class="magazine-grid">
+<article class="stay-card featured reveal-child"><a class="card-image" href="https://www.airbnb.co.uk/s/Paris/homes?place_id=ChIJD7fiBh9u5kcRYJSMaMOCCwQ&refinement_paths%5B%5D=%2Fhomes&flexible_trip_lengths%5B%5D=weekend_trip&date_picker_type=FLEXIBLE_DATES&search_type=HOMEPAGE_CAROUSEL_CLICK" target="_blank" rel="noopener"><img src="https://a0.muscache.com/im/pictures/hosting/Hosting-40508822/original/6b0796be-9888-44ce-b7f0-f9fbb1bca2c3.jpeg?im_w=720" alt="Room in the 5th Arrondissement of Paris" width="720" height="540"><span class="badge">Guest favourite</span></a><div class="card-content"><h3>Room in 5th Arrondissement</h3><p>Paris · 7–9 Aug · Individual host</p><div class="card-meta"><strong>£182 total</strong><span><i class="bi bi-star-fill" aria-hidden="true"></i> 4.94</span></div><a class="card-cta" href="https://www.airbnb.co.uk/s/Paris/homes?place_id=ChIJD7fiBh9u5kcRYJSMaMOCCwQ&refinement_paths%5B%5D=%2Fhomes&flexible_trip_lengths%5B%5D=weekend_trip&date_picker_type=FLEXIBLE_DATES&search_type=HOMEPAGE_CAROUSEL_CLICK" target="_blank" rel="noopener">Explore Paris <i class="bi bi-arrow-right" aria-hidden="true"></i></a></div></article>
+<article class="stay-card reveal-child"><a class="card-image" href="https://www.airbnb.co.uk/s/New-York-City/homes?place_id=ChIJOwg_06VPwokRYv534QaPC8g&refinement_paths%5B%5D=%2Fhomes&date_picker_type=FLEXIBLE_DATES&flexible_trip_lengths%5B%5D=WEEKEND_TRIP&flexible_trip_dates%5B%5D=august&search_type=HOMEPAGE_CAROUSEL_CLICK" target="_blank" rel="noopener"><img src="https://a0.muscache.com/im/pictures/miso/Hosting-1407344736645729737/original/ec92a068-edaa-44d8-b0ed-abe0218834f2.jpeg?im_w=720" alt="Hotel in New York City" width="720" height="540"><span class="badge">Guest favourite</span></a><div class="card-content"><h3>Hotel in New York City</h3><p>Available next month · 7–9 Aug</p><div class="card-meta"><strong>£298 total</strong><span><i class="bi bi-star-fill" aria-hidden="true"></i> 4.93</span></div><a class="card-cta" href="https://www.airbnb.co.uk/s/New-York-City/homes?place_id=ChIJOwg_06VPwokRYv534QaPC8g&refinement_paths%5B%5D=%2Fhomes&date_picker_type=FLEXIBLE_DATES&flexible_trip_lengths%5B%5D=WEEKEND_TRIP&flexible_trip_dates%5B%5D=august&search_type=HOMEPAGE_CAROUSEL_CLICK" target="_blank" rel="noopener">View stay <i class="bi bi-arrow-right" aria-hidden="true"></i></a></div></article>
+<article class="stay-card reveal-child"><a class="card-image" href="https://www.airbnb.co.uk/s/Barcelona/homes?place_id=ChIJ5TCOcRaYpBIRCmZHTz37sEQ&refinement_paths%5B%5D=%2Fhomes&flexible_trip_lengths%5B%5D=weekend_trip&date_picker_type=FLEXIBLE_DATES&search_type=HOMEPAGE_CAROUSEL_CLICK" target="_blank" rel="noopener"><img src="https://a0.muscache.com/im/pictures/33885618/c881be58_original.jpg?im_w=720" alt="Flat in Eixample, Barcelona" width="720" height="540"></a><div class="card-content"><h3>Flat in Eixample</h3><p>Barcelona · 12–14 Feb · Individual host</p><div class="card-meta"><strong>£217 total</strong><span><i class="bi bi-star-fill" aria-hidden="true"></i> 4.84</span></div><a class="card-cta" href="https://www.airbnb.co.uk/s/Barcelona/homes?place_id=ChIJ5TCOcRaYpBIRCmZHTz37sEQ&refinement_paths%5B%5D=%2Fhomes&flexible_trip_lengths%5B%5D=weekend_trip&date_picker_type=FLEXIBLE_DATES&search_type=HOMEPAGE_CAROUSEL_CLICK" target="_blank" rel="noopener">View stay <i class="bi bi-arrow-right" aria-hidden="true"></i></a></div></article>
+<article class="stay-card reveal-child"><a class="card-image" href="https://www.airbnb.co.uk/s/Dubai/homes?place_id=ChIJRcbZaklDXz4R6SkAK7_QznQ&refinement_paths%5B%5D=%2Fhomes&flexible_trip_lengths%5B%5D=weekend_trip&date_picker_type=FLEXIBLE_DATES&search_type=HOMEPAGE_CAROUSEL_CLICK" target="_blank" rel="noopener"><img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1562136998451248859/original/d603d024-491e-4b9f-8a44-77907a1b3e02.jpeg?im_w=720" alt="Flat in Marsa Dubai" width="720" height="540"><span class="badge">Guest favourite</span></a><div class="card-content"><h3>Flat in Marsa Dubai</h3><p>Dubai · 2–4 Oct</p><div class="card-meta"><strong>£622 total</strong><span><i class="bi bi-star-fill" aria-hidden="true"></i> 4.94</span></div><a class="card-cta" href="https://www.airbnb.co.uk/s/Dubai/homes?place_id=ChIJRcbZaklDXz4R6SkAK7_QznQ&refinement_paths%5B%5D=%2Fhomes&flexible_trip_lengths%5B%5D=weekend_trip&date_picker_type=FLEXIBLE_DATES&search_type=HOMEPAGE_CAROUSEL_CLICK" target="_blank" rel="noopener">View stay <i class="bi bi-arrow-right" aria-hidden="true"></i></a></div></article>
+<article class="stay-card reveal-child"><a class="card-image" href="https://www.airbnb.co.uk/s/Edinburgh/homes?place_id=ChIJUXnOUJTGh0gRwLNCBhpoDAM&refinement_paths%5B%5D=%2Fhomes&date_picker_type=FLEXIBLE_DATES&flexible_trip_lengths%5B%5D=WEEKEND_TRIP&flexible_trip_dates%5B%5D=august&search_type=HOMEPAGE_CAROUSEL_CLICK" target="_blank" rel="noopener"><img src="https://a0.muscache.com/im/pictures/airflow/Hosting-53249510/original/454a878d-85f7-4e52-a5e9-873f60632613.jpg?im_w=720" alt="Room in Edinburgh" width="720" height="540"></a><div class="card-content"><h3>Room in Edinburgh</h3><p>Available next month · 14–16 Aug</p><div class="card-meta"><strong>£200 total</strong><span><i class="bi bi-star-fill" aria-hidden="true"></i> 4.89</span></div><a class="card-cta" href="https://www.airbnb.co.uk/s/Edinburgh/homes?place_id=ChIJUXnOUJTGh0gRwLNCBhpoDAM&refinement_paths%5B%5D=%2Fhomes&date_picker_type=FLEXIBLE_DATES&flexible_trip_lengths%5B%5D=WEEKEND_TRIP&flexible_trip_dates%5B%5D=august&search_type=HOMEPAGE_CAROUSEL_CLICK" target="_blank" rel="noopener">View stay <i class="bi bi-arrow-right" aria-hidden="true"></i></a></div></article>
+</div>
+</section>
+<section class="experiences section reveal reveal-side" id="experiences">
+<div class="section-heading light-heading reveal-child"><div><p class="eyebrow">More than somewhere to sleep</p><h2>Make the city yours</h2></div><a class="text-link light-link" href="https://www.airbnb.co.uk/s/London/experiences?place_id=ChIJdd4hrwug2EcRmSrV3Vo6llI&refinement_paths%5B%5D=%2Fexperiences&search_type=HOMEPAGE_CAROUSEL_CLICK" target="_blank" rel="noopener">Explore London <i class="bi bi-arrow-up-right" aria-hidden="true"></i></a></div>
+<div class="bento-grid">
+<a class="bento bento-main reveal-child" href="https://www.airbnb.co.uk/s/London/experiences?place_id=ChIJdd4hrwug2EcRmSrV3Vo6llI&refinement_paths%5B%5D=%2Fexperiences&search_type=HOMEPAGE_CAROUSEL_CLICK" target="_blank" rel="noopener"><img src="https://a0.muscache.com/im/pictures/Mt/MtTemplate-203605/original/b7fb8e74-998e-49e2-b74a-6cf249ad18f4.jpeg?im_w=720" alt="Explore London sights" width="720" height="540"><div class="bento-overlay"><span>Popular experience</span><h3>Explore 30+ London sights</h3><p>From £25 per guest · 4.91</p></div></a>
+<a class="bento bento-wide reveal-child" href="https://www.airbnb.co.uk/s/London/experiences?place_id=ChIJdd4hrwug2EcRmSrV3Vo6llI&refinement_paths%5B%5D=%2Fexperiences&kg_or_tags=Tag%3A8957&search_type=HOMEPAGE_CAROUSEL_CLICK" target="_blank" rel="noopener"><div class="bento-icon-image"><img src="https://a0.muscache.com/im/pictures/AirbnbPlatformAssets/AirbnbPlatformAssets-ExperiencesCategoryTypeCarousel/original/fbc5d01b-0810-4c39-b771-8da65c5ceda8.png?im_w=720" alt="Cooking experience" width="720" height="720"></div><div><span>Do it together</span><h3>Cooking</h3><p>Get closer to a place through its food.</p></div></a>
+<a class="bento bento-small reveal-child" href="https://www.airbnb.co.uk/s/London/services?place_id=ChIJdd4hrwug2EcRmSrV3Vo6llI&refinement_paths%5B%5D=%2Fservices&service_type_tag=Tag%3A8949&pinned_service_type_tag=Tag%3A8949&search_type=HOMEPAGE_CAROUSEL_CLICK" target="_blank" rel="noopener"><div class="bento-icon-image"><img src="https://a0.muscache.com/im/pictures/airbnb-platform-assets/AirbnbPlatformAssets-ServicesTypeCarousel/original/f920cda5-f821-49e8-921e-e064d4a8e85f.png?im_w=720" alt="Photography service" width="720" height="720"></div><h3>Photography</h3></a>
+<a class="bento bento-small reveal-child" href="https://www.airbnb.co.uk/s/London/services?place_id=ChIJdd4hrwug2EcRmSrV3Vo6llI&refinement_paths%5B%5D=%2Fservices&service_type_tag=Tag%3A8950&pinned_service_type_tag=Tag%3A8950&search_type=HOMEPAGE_CAROUSEL_CLICK" target="_blank" rel="noopener"><div class="bento-icon-image"><img src="https://a0.muscache.com/im/pictures/airbnb-platform-assets/AirbnbPlatformAssets-ServicesTypeCarousel/original/08d0fbb1-ed24-405c-a7de-159fbc963e60.png?im_w=720" alt="Chef service" width="720" height="720"></div><h3>Chefs</h3></a>
+</div>
+</section>
+<section class="inspiration section reveal reveal-scale" id="inspiration">
+<div class="timeline-intro reveal-child"><p class="eyebrow">Inspiration for future getaways</p><h2>Follow a feeling</h2><p>Choose the kind of break you need, then find a place that makes it real.</p></div>
+<div class="timeline">
+<div class="timeline-line" aria-hidden="true"></div>
+<article class="timeline-item item-one reveal-child"><span class="timeline-number">01</span><div><h3>Coastal</h3><p>Bournemouth house rentals, Costa del Sol flats and St Ives villas put the water within reach.</p><a href="https://www.airbnb.co.uk/bournemouth-united-kingdom/stays/houses" target="_blank" rel="noopener">Find coastal stays <i class="bi bi-arrow-right" aria-hidden="true"></i></a></div></article>
+<article class="timeline-item item-two reveal-child"><span class="timeline-number">02</span><div><h3>Historic</h3><p>Trace old streets from Rome and Seville to Edinburgh Old Town.</p><a href="https://www.airbnb.co.uk/rome-italy/stays/pet-friendly" target="_blank" rel="noopener">Explore historic places <i class="bi bi-arrow-right" aria-hidden="true"></i></a></div></article>
+<article class="timeline-item item-three reveal-child"><span class="timeline-number">03</span><div><h3>Islands</h3><p>Slow down with stays across Santorini, Majorca, Minorca and the Isle of Skye.</p><a href="https://www.airbnb.co.uk/santorini-greece/stays/serviced-apartments" target="_blank" rel="noopener">Discover island stays <i class="bi bi-arrow-right" aria-hidden="true"></i></a></div></article>
+<article class="timeline-item item-four reveal-child"><span class="timeline-number">04</span><div><h3>Lakes</h3><p>Wake near Lake Como or settle into a cottage in the Lake District National Park.</p><a href="https://www.airbnb.co.uk/lake-como-italy/stays" target="_blank" rel="noopener">Head to the lakes <i class="bi bi-arrow-right" aria-hidden="true"></i></a></div></article>
+</div>
+</section>
+<section class="questions section reveal reveal-clip" id="questions">
+<div class="faq-layout">
+<div class="faq-intro reveal-child"><p class="eyebrow">Good to know</p><h2>A smoother way to wander</h2><p>Quick answers based on the Airbnb options featured here.</p><a class="button" href="https://www.airbnb.co.uk/" target="_blank" rel="noopener"><span>Open Airbnb</span></a></div>
+<div class="accordion reveal-child">
+<div class="faq-item"><button type="button" aria-expanded="true"><span>What can I discover here?</span><i class="bi bi-plus-lg" aria-hidden="true"></i></button><div class="faq-answer"><div><p>Browse homes, featured hotels, experiences and local services such as photography, chefs and spa treatments.</p></div></div></div>
+<div class="faq-item"><button type="button" aria-expanded="false"><span>What is a Guest favourite?</span><i class="bi bi-plus-lg" aria-hidden="true"></i></button><div class="faq-answer"><div><p>Guest favourite labels appear on highly rated listings in the scraped Airbnb results, alongside their average guest rating.</p></div></div></div>
+<div class="faq-item"><button type="button" aria-expanded="false"><span>Are prices shown per stay or per guest?</span><i class="bi bi-plus-lg" aria-hidden="true"></i></button><div class="faq-answer"><div><p>Homes are shown with total prices for the displayed dates, while experiences and some services may be priced per guest or group.</p></div></div></div>
+<div class="faq-item"><button type="button" aria-expanded="false"><span>How are cookies used?</span><i class="bi bi-plus-lg" aria-hidden="true"></i></button><div class="faq-answer"><div><p>Airbnb uses cookies and other technologies to personalise content, measure ads and provide an optimised experience. Preferences can be updated at any time.</p><a href="https://www.airbnb.co.uk/terms/cookie_policy" target="_blank" rel="noopener">Read the Airbnb cookie policy</a></div></div></div>
+</div>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<div class="footer-grid">
+<div class="footer-brand"><a class="brand footer-logo" href="#top"><i class="bi bi-house-heart-fill" aria-hidden="true"></i><span>airbnb</span></a><p>Homes, experiences and services for wherever you are going next.</p></div>
+<div><h2>Explore</h2><a href="#stays">Popular stays</a><a href="#experiences">London experiences</a><a href="#inspiration">Future getaways</a></div>
+<div><h2>Airbnb links</h2><a href="https://www.airbnb.co.uk/" target="_blank" rel="noopener">Airbnb UK</a><a href="https://www.airbnb.co.uk/terms/cookie_policy" target="_blank" rel="noopener">Cookie policy</a></div>
+<div><h2>Social</h2><p>Social profiles were not included in the supplied Airbnb content.</p><a href="https://www.airbnb.com/" target="_blank" rel="noopener">Visit Airbnb.com <i class="bi bi-arrow-up-right" aria-hidden="true"></i></a></div>
+</div>
+<div class="footer-bottom"><span>Airbnb discovery concept</span><a href="#main">Skip to content</a></div>
+</footer>
+<button class="back-to-top" type="button" aria-label="Back to top"><i class="bi bi-arrow-up" aria-hidden="true"></i></button>
+
+<div id="ai-chat-launcher" role="button" tabindex="0" aria-label="Open chat">
+  <i class="bi bi-chat-dots-fill" id="ai-chat-launcher-icon"></i>
+  <i class="bi bi-x-lg" id="ai-chat-launcher-close-icon"></i>
+  <span id="ai-chat-launcher-pulse"></span>
+</div>
+<div id="ai-chat-panel" hidden>
+  <div id="ai-chat-header">
+    <div id="ai-chat-header-info">
+      <div id="ai-chat-avatar"><i class="bi bi-stars"></i></div>
+      <div id="ai-chat-header-text">
+        <span id="ai-chat-title">AI Assistant</span>
+        <span id="ai-chat-status"><span id="ai-chat-status-dot"></span>Online now</span>
+      </div>
+    </div>
+    <button id="ai-chat-close" aria-label="Close chat"><i class="bi bi-chevron-down"></i></button>
+  </div>
+  <div id="ai-chat-messages"></div>
+  <div id="ai-chat-form-wrap">
+    <form id="ai-chat-form">
+      <input id="ai-chat-input" type="text" placeholder="Ask me anything…" autocomplete="off" required />
+      <button type="submit" aria-label="Send message"><i class="bi bi-send-fill"></i></button>
+    </form>
+    <div id="ai-chat-footer-note">Powered by AI · Replies may take a moment</div>
+  </div>
+</div>
+</body>
+</html>
